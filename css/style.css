@@ -28,16 +28,13 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
 }
 
-.logo {
-    width: 101px;
-}
 
 .row {
     margin: 0 -15px;
     display: flex;
+    /*flex-wrap: wrap;*/
 }
 
 .col-6 {
@@ -45,7 +42,7 @@ p {
 }
 
 #hero {
-    height: 770px;
+    height: 100vh;
     padding: 40px 0 70px 0;
     display: flex;
     background: url("../images/bg (5).png") center/cover;
@@ -67,7 +64,7 @@ p {
     line-height: 77px;
     color: #FFFFFF;
     letter-spacing: 6px;
-    margin: 0;
+    margin-top: 130px;
 }
 
 .hero-desc {
@@ -91,7 +88,7 @@ p {
 }
 
 #header {
-    height: 65px;
+    padding: 10px 0;
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
 }
@@ -99,9 +96,8 @@ p {
 .header-item {
     font-weight: 600;
     font-size: 12px;
-    line-height: 16;
-    letter-spacing: 1px;
     color: #485558;
+    padding-left: 38px;
     font-family: "Open Sans", sans-serif;
 
 }
@@ -110,9 +106,6 @@ p {
     color: #00A4E5;
 }
 
-.header-item:not( :last-child) {
-    margin-right: 39px;
-}
 
 #story {
     padding: 57px 0;
@@ -218,7 +211,7 @@ p {
     padding: 62px 0 115px 0;
 }
 
-.sea-btn{
+.sea-btn {
     width: 150px;
     height: 40px;
     background: #00A4E5;
@@ -231,7 +224,23 @@ p {
     letter-spacing: 0.5px;
     color: #FFFFFF;
 }
-button{
+
+.sea {
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-top: -8px;
+}
+
+button {
     border: none;
 }
 
@@ -246,22 +255,17 @@ button{
 }
 
 .capabilities-card {
-    height: 330px;
-    width: 295px;
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
-    padding: 38px 22px 0 23px;
+    padding: 38px 22px;
 }
 
 .capabilities-card-title {
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
-    font-size: 16px;
     line-height: 24px;
     display: flex;
     align-items: center;
-    letter-spacing: 0.426667px;
-
     color: #48555B;
 }
 
@@ -283,28 +287,30 @@ button{
     padding: 0 25px;
 }
 
-.capabilities-money{
+.capabilities-money {
     font-weight: normal;
     font-size: 11px;
     line-height: 19px;
-      color: #485558;
+    color: #485558;
     letter-spacing: 0.2px;
     width: 406px;
     margin-right: 32px;
-    font-family: "Open Sans" , sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
+
 .caption {
     display: flex;
-    justify-content: center;
 }
-#get-in-touch{
-  text-align: center;
+
+#get-in-touch {
+    text-align: center;
     height: 499px;
     padding-top: 120px;
     background: url("../images/bg_2.png") center/cover;
 }
-.get-in-touch-title{
-font-style: normal;
+
+.get-in-touch-title {
+    font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
@@ -312,49 +318,55 @@ font-style: normal;
     color: #48555B;
     width: 350px;
     margin: 0 auto 30px;
-    font-family: "Open Sans" , sans-serif;
+    font-family: "Open Sans", sans-serif;
 
 
 }
-.get-in-touch-btn{
+
+.get-in-touch-btn {
     margin: 0 auto;
 
 }
-#sign-up{
+
+#sign-up {
     height: 100px;
     background: #171819;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sign-up-title{
+
+.sign-up-title {
     font-weight: bold;
     font-size: 22px;
     line-height: 30px;
     color: #FFFFFF;
     margin-right: 70px;
     letter-spacing: 0.846154px;
-    font-family: "Open Sans" , sans-serif;
+    font-family: "Open Sans", sans-serif;
 
 
 }
-#sign-up-form{
-   display: flex;
+
+#sign-up-form {
+    display: flex;
 }
-.sign-up-form input{
+
+.sign-up-form input {
     background: #FFFFFF;
     border: 1px solid #979797;
     height: 36px;
     width: 234px;
     padding-left: 16px;
 }
-.sign-up-btn{
+
+.sign-up-btn {
     margin-left: -1px;
 }
-.lower{
+
+.lower {
     padding: 11px 80px 11px 10px;
 }
-
 
 
 .caption {
@@ -541,7 +553,7 @@ font-style: normal;
 
 .company-five {
     font-weight: 200;
-
+    margin-left: 20px;
 }
 
 
@@ -562,10 +574,6 @@ font-style: normal;
     line-height: 15px;
 }
 
-.company-six {
-    margin-right: -56px;
-}
-
 .company-six-two {
 
     font-family: "Open Sans", sans-serif;
@@ -578,7 +586,6 @@ font-style: normal;
 
 .footer {
     padding: 23px 0;
-    width: 1440px;
     height: 60px;
     background: #171819;
 }
@@ -598,7 +605,7 @@ font-style: normal;
 }
 
 .company-third {
-    margin-left: -25px;
+    margin-left: 35px;
 }
 
 .team-socials-item {
@@ -611,7 +618,8 @@ font-style: normal;
     justify-content: space-between;
     margin-top: 89px;
 }
-.sea-btn{
+
+.sea-btn {
     width: 150px;
     height: 40px;
     background: #00A4E5;
@@ -626,8 +634,8 @@ font-style: normal;
     border: none;
 }
 
-.capabilities-money{
-    font-family: "Open Sans" , sans-serif;
+.capabilities-money {
+    font-family: "Open Sans", sans-serif;
     font-size: 11px;
     line-height: 19px;
 
@@ -636,8 +644,9 @@ font-style: normal;
     letter-spacing: 0.2px;
 
 }
-.button-jpeg{
-    font-family: "Open Sans" , sans-serif;
+
+.button-jpeg {
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
@@ -651,8 +660,81 @@ font-style: normal;
     height: 40px;
     margin: 17px 0 0 78px;
     top: 0;
-    padding: 11px 22px 11px ;
+    padding: 11px 22px 11px;
     background: #00A4E5;
     color: #FFFFFF;
 
 }
+
+.mobile-menu {
+    display: none;
+    background: none;
+    border: none;
+}
+
+.plate5 .line {
+    transition: stroke-dasharray 400ms 100ms, stroke-dashoffset 400ms 100ms, transform 400ms 100ms;
+}
+
+.plate5 .line1 {
+    stroke-dasharray: 40 40;
+}
+
+.plate5 .line2 {
+    stroke-dasharray: 21 39;
+}
+
+.plate5 .line3 {
+    stroke-dasharray: 21 39;
+}
+
+.plate5 .line4 {
+    stroke-dasharray: 40 40;
+}
+
+.plate5 .x {
+    transition: transform 400ms 50ms;
+}
+
+.active.plate5 .line {
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms, transform 400ms;
+}
+
+.active.plate5 .line1 {
+    stroke-dasharray: 1 40;
+    stroke-dashoffset: -33px;
+}
+
+.active.plate5 .line2 {
+    stroke-dasharray: 5 39;
+    stroke-dashoffset: -37px;
+}
+
+.active.plate5 .line3 {
+    stroke-dasharray: 5 39;
+    stroke-dashoffset: -37px;
+}
+
+.active.plate5 .line4 {
+    stroke-dasharray: 1 40;
+    stroke-dashoffset: -33px;
+}
+
+.active.plate5 .x {
+    transition: transform 400ms 50ms;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav li {
+    margin-left: 30px;
+}
+
+.header-nav li a {
+    color: black;
+}
+
