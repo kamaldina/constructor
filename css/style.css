@@ -32,9 +32,9 @@ p {
 
 
 .row {
-    margin: 0 -15px;
+
     display: flex;
-    /*flex-wrap: wrap;*/
+
 }
 
 .col-6 {
@@ -50,6 +50,7 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .hero-info {
     display: flex;
@@ -107,9 +108,7 @@ p {
 }
 
 
-#story {
-    padding: 57px 0;
-}
+
 
 .section-title {
     position: relative;
@@ -191,20 +190,23 @@ p {
 .first-card-bg {
     background: url("../images/Bitmap.png") no-repeat;
     width: 400px;
-    left: -248px;
+    margin-left: 645px;
+    margin-top: -256px;
 }
 
 .second-card-bg {
     background: url("../images/Bitmap (1).png") no-repeat;
+    margin-left: 812px;
+    margin-top: -256px;
     width: 300px;
-    margin-left: -56px;
 
 }
 
 .third-card-bg {
     background: url("../images/Bitmap (4).png") no-repeat;
+    margin-left: 979px;
+    margin-top: -224px;
     width: 300px;
-    margin-left: -113px;
 }
 
 #capabilities {
@@ -257,7 +259,9 @@ button {
 .capabilities-card {
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
-    padding: 38px 22px;
+    padding: 38px 31px;
+    margin-left: 30px;
+
 }
 
 .capabilities-card-title {
@@ -271,20 +275,15 @@ button {
 
 .capabilities-card-desc {
     font-family: "Open Sans", sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 23px;
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.1875px;
 
     color: #48555B;
 
 }
 
 .col-4 {
-    width: 33.3333%;
-    padding: 0 25px;
+width: 33.333%;
 }
 
 .capabilities-money {
@@ -305,7 +304,7 @@ button {
 #get-in-touch {
     text-align: center;
     height: 499px;
-    padding-top: 120px;
+
     background: url("../images/bg_2.png") center/cover;
 }
 

@@ -15,7 +15,8 @@
     }
 
     .first-card-bg {
-        margin-left: 13px;
+        margin-left: 482px;
+        margin-top: -271px;
     }
 
     .images-fon {
@@ -23,7 +24,9 @@
     }
 
     .third-card-bg {
-        margin-left: -125px;
+        margin-left: 784px;
+        margin-top: -224px;
+
     }
     .capabilities-money{
         margin-top: 18px;
@@ -34,6 +37,15 @@
     .hero-scroll{
         margin-top: 61px;
     }
+    .second-card-bg{
+        margin-left: 634px;
+        margin-top: -271px;
+
+    }
+    .story-suptitle{
+        font-size: 19px;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -89,20 +101,28 @@
     }
 
     .first-card-bg {
-        margin-left: -1px;
+        margin-top: 79PX;
+        margin-left: 72px;
     }
+.uppercase{
+    margin-left: 233px;
+    margin-top: -300px;
 
+}
+.second-card-bg{
+    margin-left: 80px;
+    margin-top: 76px;
+}
     .company-four {
         margin-left: 12px;
     }
+.third-card-bg {
+    margin-left: 539px;
+    margin-top: -224px;
 
-    .second-card-bg {
-        margin-left: -57px
-    }
+}
 
-    .third-card-bg {
-        margin-left: -115px;
-    }
+
 
     .info-content img {
         display: none;
@@ -111,6 +131,7 @@
     .header-logo {
         margin-left: 29px;
     }
+
 
     .show {
         margin-right: 30px;
@@ -169,7 +190,9 @@
         height: 100%;
         z-index: 9;
     }
-
+.capabilities-card-title{
+    font-size: 10px;
+}
 
 
 }
@@ -178,6 +201,9 @@
     .container {
         max-width: 460px;
 
+    }
+    .capabilities-btn-part{
+        margin-top: 300px;
     }
 
     .company-one {
@@ -218,10 +244,7 @@
         position: absolute;
     }
 
-    .first-card-bg {
-        margin-top: 336px;
 
-    }
 
     .caption {
         display: block;
@@ -229,25 +252,15 @@
         width: 939px;
     }
 
-    .second-card-bg {
-        margin-top: 600px;
-        margin-left: -148px;
-
-    }
-
-    .third-card-bg {
-        margin-top: 868px;
-        margin-left: -296px;
-
-    }
 
     .capabilities-title {
         position: absolute;
+        margin-top: 1134px;
 
     }
 
     .capabilities-money {
-        margin-top: 93px;
+        margin-top: 909px;
     }
 
     .capabilities-card {
@@ -271,15 +284,32 @@
         padding: 25px 9px 643px 0;
 
     }
-
+    .first-card-bg{
+        margin-top: 220PX;
+        margin-left: 120px;
+    }
+    .uppercase{
+        margin-left: 43px;
+        margin-top: -3px;
+    }
+.second-card-bg{
+    margin-left: 80px;
+    margin-top: 76px;
+}
+.third-card-bg{
+    margin-left: 126px;
+    margin-top: 65px;
+    margin-bottom: 7px;
+}
     .team-socials {
         display: block;
         margin-top: 21px;
     }
 
     .sea {
-        margin-top: 217px;
+        margin-top: 1018px;
         margin-left: -435px;
+    
     }
 
     .mobile-menu {
@@ -295,7 +325,22 @@
         margin-bottom: 10px;
         margin-left: -37px;
     }
-
+    .story-suptitle{
+        width: 405.08px;
+        height: 81px;
+        top: 116px;
+        font-size: 20px;
+        color: #48555B;
+        margin-bottom: 65px;
+    }
+    .story-subtitle{
+        position: absolute;
+        width: 405.08px;
+        height: 115px;
+    }
+.capabilities-card-title{
+    font-size: 13px;
+}
 
     @media (max-width: 375px) {
         .container {
@@ -313,12 +358,14 @@
         }
 
         .sea {
-            margin-left: -307px;
-            margin-top: 255px;
+            margin-left: -350px;
+            margin-top: 1045px;
+
         }
 
         .capabilities-title {
-            margin-top: -16px;
+            margin-top: 1094px;
+
         }
 
         .images-fon {
@@ -327,9 +374,8 @@
 
 
         .capabilities-card {
-            margin-left: -23px;
-
-            width: 258px;
+            margin-left: -7px;
+           
         }
 
         .company-third {
@@ -363,7 +409,9 @@
         }
 
         .third-card-bg {
-            margin-left: -286px;
+            margin-left: 85px;
+            margin-top: 59px;
+
         }
 
 
@@ -380,25 +428,47 @@
 
         .capabilities-money {
 
-            width: 276.08px;
-            margin-top: 97px;
+            width: 318.08px;
+            margin-top: 896px;
+
+
 
         }
 
-        .second-card-bg {
-            margin-top: 601px;
-            margin-left: -142px;
-        }
-        .third-card-bg{
-            margin-left: -284px;
-                margin-top: 862px;
-
-            }
-        .company-second{
+        .company-second {
 
             margin-top: 10px;
         }
+
+        .images-fon {
+            display: block;
         }
+        .story-suptitle{
+            width: 399.08px;
+            height: 84px;
+            top: 118px;
+            font-size: 20px;
+            color: #48555B;
+            margin-bottom: 65px;
+
+        }
+        .story-subtitle{
+            width: 334.08px;
+        }
+        .first-card-bg{
+            margin-top: 220PX;
+            margin-left: 83px;
+
+        }
+        .second-card-bg{
+            margin-top: 62px;
+            margin-left: -45px;
+        }
+        .uppercase{
+            margin-left: 129px;
+            margin-top: -3px;
+        }
+    }
     }
 
 
