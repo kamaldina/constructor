@@ -18,6 +18,7 @@ p {
 }
 
 
+
 .container {
     max-width: 960px;
     padding: 0 15px;
@@ -34,11 +35,12 @@ p {
 .row {
 
     display: flex;
-
+    margin: 0 15px;
 }
 
 .col-6 {
-    width: 46%;
+    width: 50%;
+    padding: 0 15px;
 }
 
 #hero {
@@ -164,9 +166,8 @@ p {
     color: #48555B;
 
 }
-
-.story-left {
-    padding-right: 122px;
+.story{
+    display: flex;
 }
 
 .story-suptitle span {
@@ -181,32 +182,24 @@ p {
     font-weight: 800;
     font-size: 24px;
     line-height: 29px;
-    letter-spacing: 0.1875px;
     color: #FFFFFF;
     font-family: "Open Sans", sans-serif;
-    padding: 23px 0 140px 10px
+    padding: 23px 8px 0;
 }
 
 .first-card-bg {
     background: url("../images/Bitmap.png") no-repeat;
-    width: 400px;
-    margin-left: 645px;
-    margin-top: -256px;
+    margin-right: 6px;
 }
 
 .second-card-bg {
     background: url("../images/Bitmap (1).png") no-repeat;
-    margin-left: 812px;
-    margin-top: -256px;
-    width: 300px;
-
+    margin-right: 6px;
 }
 
 .third-card-bg {
     background: url("../images/Bitmap (4).png") no-repeat;
-    margin-left: 979px;
-    margin-top: -224px;
-    width: 300px;
+
 }
 
 #capabilities {
@@ -313,7 +306,6 @@ width: 33.333%;
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
-    letter-spacing: 0.15px;
     color: #48555B;
     width: 350px;
     margin: 0 auto 30px;

@@ -14,38 +14,31 @@
         margin-left: 20px;
     }
 
-    .first-card-bg {
-        margin-left: 482px;
-        margin-top: -271px;
-    }
 
     .images-fon {
         margin-left: -51px;
     }
 
-    .third-card-bg {
-        margin-left: 784px;
-        margin-top: -224px;
-
-    }
-    .capabilities-money{
+    .capabilities-money {
         margin-top: 18px;
     }
-    .sea{
+
+    .sea {
         margin-top: 5px;
     }
-    .hero-scroll{
+
+    .hero-scroll {
         margin-top: 61px;
     }
-    .second-card-bg{
-        margin-left: 634px;
-        margin-top: -271px;
 
-    }
-    .story-suptitle{
+
+    .story-suptitle {
         font-size: 19px;
     }
 
+    .story-card-text {
+        font-size: 21px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -78,6 +71,7 @@
         height: 100%;
         z-index: 9;
     }
+
     .show {
         display: flex;
     }
@@ -100,28 +94,10 @@
         max-width: 740px;
     }
 
-    .first-card-bg {
-        margin-top: 79PX;
-        margin-left: 72px;
-    }
-.uppercase{
-    margin-left: 233px;
-    margin-top: -300px;
 
-}
-.second-card-bg{
-    margin-left: 80px;
-    margin-top: 76px;
-}
     .company-four {
         margin-left: 12px;
     }
-.third-card-bg {
-    margin-left: 539px;
-    margin-top: -224px;
-
-}
-
 
 
     .info-content img {
@@ -190,9 +166,10 @@
         height: 100%;
         z-index: 9;
     }
-.capabilities-card-title{
-    font-size: 10px;
-}
+
+    .capabilities-card-title {
+        font-size: 10px;
+    }
 
 
 }
@@ -202,9 +179,28 @@
         max-width: 460px;
 
     }
-    .capabilities-btn-part{
-        margin-top: 300px;
+
+    .row {
+        flex-direction: column;
+
     }
+
+    .col-6 {
+        width: 100%;
+    }
+
+
+    .capabilities-info {
+        margin-bottom: 76px;
+        margin-top: -123px;
+    }
+
+    .capabilities-btn-part {
+        display: inline-block;
+        margin-top: 166px;
+        margin-left: -142px;
+    }
+
 
     .company-one {
         display: block;
@@ -240,31 +236,21 @@
         text-align: center;
     }
 
-    .ken {
-        position: absolute;
-    }
-
-
 
     .caption {
         display: block;
         margin-left: 17px;
-        width: 939px;
     }
 
-
-    .capabilities-title {
-        position: absolute;
-        margin-top: 1134px;
-
+    .stories {
+        justify-content: center;
+        display: flex;
     }
 
-    .capabilities-money {
-        margin-top: 909px;
-    }
 
     .capabilities-card {
         margin-bottom: 48px;
+        width: 250px;
     }
 
     #sign-up {
@@ -284,33 +270,13 @@
         padding: 25px 9px 643px 0;
 
     }
-    .first-card-bg{
-        margin-top: 220PX;
-        margin-left: 120px;
-    }
-    .uppercase{
-        margin-left: 43px;
-        margin-top: -3px;
-    }
-.second-card-bg{
-    margin-left: 80px;
-    margin-top: 76px;
-}
-.third-card-bg{
-    margin-left: 126px;
-    margin-top: 65px;
-    margin-bottom: 7px;
-}
+
+
     .team-socials {
         display: block;
         margin-top: 21px;
     }
 
-    .sea {
-        margin-top: 1018px;
-        margin-left: -435px;
-    
-    }
 
     .mobile-menu {
         display: block;
@@ -321,26 +287,55 @@
 
         margin-right: 22px;
     }
-    .header-item{
+
+    .header-item {
         margin-bottom: 10px;
         margin-left: -37px;
     }
-    .story-suptitle{
-        width: 405.08px;
-        height: 81px;
-        top: 116px;
+
+    .story-suptitle {
+
+        font-weight: bold;
         font-size: 20px;
-        color: #48555B;
-        margin-bottom: 65px;
+        line-height: 27px;
+        align-items: flex-end;
+        letter-spacing: 0.1875px;
+        color: #485558;
+        /*position: absolute;*/
+        /*margin-left: -109px;*/
     }
-    .story-subtitle{
-        position: absolute;
-        width: 405.08px;
-        height: 115px;
+
+    .story-subtitle {
+        /*position: absolute;*/
+        /*margin: 149px 0 30px -116px;*/
+
     }
-.capabilities-card-title{
-    font-size: 13px;
-}
+
+    .capabilities-card-title {
+        font-size: 15px;
+    }
+
+    .first-card-bg {
+        height: 225px;
+        width: 140px;
+    }
+
+    /*}*/
+    /*.second-card-bg {*/
+    /*    margin: 100px 0 12px 50px;*/
+    /*}*/
+    /*.third-card-bg {*/
+    /*    margin: 100px 0 12px 50px;*/
+    /*}*/
+    .story-card {
+        height: 224px;
+        margin-top: 45px;
+    }
+
+
+    .col-4 {
+        width: 100%;
+    }
 
     @media (max-width: 375px) {
         .container {
@@ -356,27 +351,10 @@
 
             text-align: center;
         }
-
-        .sea {
-            margin-left: -350px;
-            margin-top: 1045px;
-
-        }
-
-        .capabilities-title {
-            margin-top: 1094px;
-
-        }
-
         .images-fon {
             margin-top: 112px;
         }
 
-
-        .capabilities-card {
-            margin-left: -7px;
-           
-        }
 
         .company-third {
             margin-top: 26px;
@@ -408,12 +386,6 @@
             background: black;
         }
 
-        .third-card-bg {
-            margin-left: 85px;
-            margin-top: 59px;
-
-        }
-
 
         .mobile-menu {
             display: block;
@@ -426,15 +398,6 @@
         }
 
 
-        .capabilities-money {
-
-            width: 318.08px;
-            margin-top: 896px;
-
-
-
-        }
-
         .company-second {
 
             margin-top: 10px;
@@ -443,33 +406,23 @@
         .images-fon {
             display: block;
         }
-        .story-suptitle{
-            width: 399.08px;
-            height: 84px;
-            top: 118px;
-            font-size: 20px;
+
+        .story-suptitle {
+
+
+            font-size: 18px;
             color: #48555B;
-            margin-bottom: 65px;
+
 
         }
-        .story-subtitle{
-            width: 334.08px;
+        .capabilities-card{
+                margin-left: 2px;
         }
-        .first-card-bg{
-            margin-top: 220PX;
-            margin-left: 83px;
-
-        }
-        .second-card-bg{
-            margin-top: 62px;
-            margin-left: -45px;
-        }
-        .uppercase{
-            margin-left: 129px;
-            margin-top: -3px;
+        .sea{
+            margin-top: 14px;
         }
     }
-    }
+}
 
 
 
