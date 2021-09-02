@@ -185,6 +185,15 @@
 
     }
 
+    .capabilities-title {
+        margin-left: 47px;
+    }
+
+    .capabilities-title:before {
+        margin-top: 23px;
+        margin-left: 1px;
+    }
+
     .col-6 {
         width: 100%;
     }
@@ -351,6 +360,7 @@
 
             text-align: center;
         }
+
         .images-fon {
             margin-top: 112px;
         }
@@ -415,10 +425,12 @@
 
 
         }
-        .capabilities-card{
-                margin-left: 2px;
+
+        .capabilities-card {
+            margin-left: 2px;
         }
-        .sea{
+
+        .sea {
             margin-top: 14px;
         }
     }
