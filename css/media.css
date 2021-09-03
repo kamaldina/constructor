@@ -171,8 +171,16 @@
         font-size: 10px;
     }
 
+    .caption {
+        margin-left: -29px;
+    }
+    .capabilities-info{
+        display: block;
+        margin-left: 28px;
+    }
 
 }
+
 
 @media (max-width: 425px) {
     .container {
@@ -192,6 +200,9 @@
     .capabilities-title:before {
         margin-top: 23px;
         margin-left: 1px;
+    }
+    .company-one{
+        margin-left: 6px;
     }
 
     .col-6 {
@@ -260,6 +271,7 @@
     .capabilities-card {
         margin-bottom: 48px;
         width: 250px;
+        margin-left: 22px;
     }
 
     #sign-up {
@@ -276,8 +288,12 @@
 
     .company {
         background: black;
-        padding: 25px 9px 643px 0;
 
+
+
+    }
+    .footer{
+        padding: 146px 0 19px
     }
 
 
@@ -392,7 +408,7 @@
 
 
         .company {
-            padding-bottom: 598px;
+            padding-bottom: 608px;
             background: black;
         }
 
@@ -407,6 +423,10 @@
             margin-right: 22px;
         }
 
+        .hero-title {
+            text-align: center;
+            font-size: 49px;
+        }
 
         .company-second {
 
@@ -426,8 +446,13 @@
 
         }
 
+        .capabilities-money {
+
+            margin: 43px 0 20px 0;
+        }
+
         .capabilities-card {
-            margin-left: 2px;
+            margin-left: 12px;
         }
 
         .sea {
@@ -435,6 +460,247 @@
         }
     }
 }
+
+
+...
+
+@media (max-width: 915px) {
+    .company-one {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 713px) {
+    .capabilities-info {
+        display: block;
+        margin-left: 30px;
+
+    }
+
+    .caption {
+        display: block;
+    }
+
+    .house {
+        width: 51.333%;
+        margin-bottom: 38px;
+        margin-left: 176px;
+
+    }
+
+    .team-socials {
+        display: block;
+        margin-left: -644px;
+        margin-top: 218px;
+
+    }
+}
+
+
+@media (max-width: 502px) {
+    .hero-title {
+        text-align: center;
+    }
+
+    .reacts {
+        display: block;
+        margin-top: 550px;
+
+    }
+
+    .story-suptitle {
+        font-size: 19px;
+        position: absolute;
+        margin-left: -102px;
+    }
+
+    .story-subtitle {
+        position: absolute;
+        margin-top: 159px;
+        margin-left: -103px
+    }
+
+}
+
+@media (max-width: 551px) {
+    .hero-title {
+        text-align: center;
+    }
+
+    .first-card-bg {
+        width: 162px;
+        margin-bottom: 30px;
+    }
+
+    .second-card-bg {
+        width: 162px;
+        margin-bottom: 30px;
+    }
+
+    .third-card-bg {
+        width: 162px;
+    }
+
+    .reacts {
+        display: block;
+    }
+
+    .company {
+        height: 749px;
+    }
+
+    .company-one {
+        display: block;
+        margin-left: 30px;
+    }
+
+    .company-second {
+        margin-left: 0;
+        display: grid;
+        margin-top: 15px;
+    }
+
+    .company-third {
+        margin-left: 0;
+        display: grid;
+        margin-top: 56px;
+    }
+
+    .company-four {
+        margin-top: -21px;
+        margin-left: 0;
+    }
+
+    .company-five {
+        margin-left: 0;
+    }
+
+    #sign-up {
+        display: block;
+        padding-left: 30px;
+    }
+
+    #sign-up-form {
+        margin-top: 15px;
+    }
+
+    .team-socials{
+        margin-left: 0;
+        margin-top: 29px;
+
+    }
+.house{
+    width: 57.333%;
+    margin-bottom: 38px;
+    margin-left: 130px;
+}
+
+    @media (max-width: 415px) {
+.story-suptitle{
+    font-size: 17px;
+    position: absolute;
+    margin-left: -81px;
+}
+        .story-subtitle{
+            position: absolute;
+            margin-top: 159px;
+            margin-left: -83px;
+        }
+        .stories{
+            margin-top: -181px;
+        }
+        .capabilities-btn-part{
+            display: inline-block;
+            margin-top: -16px;
+            margin-left: -30px;
+        }
+        .sea{
+            margin-top: 22px;
+        }
+        .capabilities-title{
+            margin-top: 131px;
+        }
+        .house {
+            width: 57.333%;
+            margin-bottom: 38px;
+            margin-left: -2px;
+
+        }
+        .company{
+            height: 256px;
+        }
+        #sign-up{
+            padding-left: 0;
+        }
+        #sign-up-form{
+            margin-top:  -7px;
+        }
+    }
+    @media (max-width: 355px){
+        .story-suptitle{
+            font-size: 16px;
+            position: absolute;
+            margin-left: -60px;
+        }
+        .story-subtitle{
+            position: absolute;
+            margin-top: 159px;
+            margin-left: -66px;
+        }
+        .capabilities-btn-part{
+            display: inline-block;
+            margin-top: -40px;
+            margin-left: 8px;
+
+        }
+        .capabilities-card{
+            margin-left: -11px;
+        }
+
+
+    }
+}
+
+
+@media (max-width: 387px){
+    .house{
+        margin-left: -14px;
+    }
+    .capabilities-btn-part{
+        margin-left: 0;
+    }
+    .story-suptitle{
+        font-size: 20px;
+        position: absolute;
+         margin-left: -90px;
+        text-align: center;
+
+    }
+    .story-subtitle{
+        margin-left: -58px;
+    }
+}
+@media (max-width: 363px){
+    .story-subtitle{
+        margin-left: -67px;
+    }
+    .card{
+        margin-top: -21px;
+    }
+    .capabilities-card{
+        margin-left: 7px;
+    }
+    .company{
+        height: 290px;
+    }
+}
+
+
+
+
+
+
+
 
 
 
