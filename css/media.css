@@ -194,7 +194,7 @@
     }
 
     .capabilities-title {
-        margin-left: 47px;
+        margin-top: 139px;
     }
 
     .capabilities-title:before {
@@ -217,8 +217,8 @@
 
     .capabilities-btn-part {
         display: inline-block;
-        margin-top: 166px;
-        margin-left: -142px;
+
+        margin-top: -22px;
     }
 
 
@@ -271,7 +271,7 @@
     .capabilities-card {
         margin-bottom: 48px;
         width: 250px;
-        margin-left: 22px;
+        margin-left: -105px;
     }
 
     #sign-up {
@@ -286,12 +286,6 @@
         padding: 7px;
     }
 
-    .company {
-        background: black;
-
-
-
-    }
     .footer{
         padding: 146px 0 19px
     }
@@ -408,8 +402,12 @@
 
 
         .company {
-            padding-bottom: 608px;
+            padding-bottom: 640px;
             background: black;
+
+        }
+        .company{
+            height: 281px;
         }
 
 
@@ -460,6 +458,13 @@
         }
     }
 }
+
+
+
+
+
+
+
 
 
 ...
